@@ -1,0 +1,33 @@
+# Arduino IDE / CLI 빌드 파일
+build/
+*.bin
+*.elf
+*.hex
+*.axf
+*.map
+*.eep
+*.dfu
+*.uf2
+.arduino/
+.build/
+
+# IDE 및 에디터 숨김 파일
+.vscode/
+.idea/
+*.suo
+*.sln
+.history/
+
+# 운영체제 생성 로그/캐시 파일 (Mac & Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 만약 PlatformIO를 사용하게 될 경우를 대비
+.pio/
+.pioenvs/
+.piolibdeps/
